@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task30</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="task30.css">
+</head>
+<body>
+<div id="contain">
+	<label>名称<input type="text" id="name" onfocus="show()" onblur="testName()"></label>
+	<p id="mes"></p>
+	<label>密码<input type="password" id="password" onfocus="showPasmes()" onblur="testPassword()"></label>
+	<p id="pas"></p>
+	<label>确认密码<input type="password" id="subPassword" onfocus="showSubpas()"  onblur= "testSubpassword()"></label>
+	<p id="subPas"></p>
+	<label id="submit" onclick="sunmitMes()">确认</label>
+</div>
+</body>
+<script type="text/javascript" src="task30.js"></script>
+</html>
